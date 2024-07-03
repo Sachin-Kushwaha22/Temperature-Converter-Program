@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPERATURE CONVERTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form class="container">
+        <h1 class="header">TEMPERATURE CONVERTER</h1>
+
+        <input type="number" id="inputTemp" value="0"><br>
+
+        <input type="radio" id="ctf" name="unit">
+        <label for="ctf">Celsius-to-Fahrenhiet</label><br>
+
+        <input type="radio" id="ftc" name="unit">
+        <label for="ftc" >Fahrenhiet-to-Celsius</label><br>
+
+        <button type="button" onclick="convert()">CONVERT</button>
+        <p id="showhere"></p>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>

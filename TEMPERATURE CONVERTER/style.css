@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(204, 204, 204);
+}
+.header{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(52, 82, 181);
+
+}
+
+.container{
+    text-align: center;
+    padding: 2em;
+    max-width: 25em;
+    margin: auto;
+    box-shadow: 2px 0px 15px 5px rgb(86, 83, 83);
+    background-color: white;
+    border-radius: 5px;
+}
+
+#inputTemp{
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    border: solid 2px black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#ctf{
+    cursor: pointer;
+}
+#ftc{
+    cursor: pointer;
+}
+
+label{
+    font-weight: bolder;
+    font-size: 1.4em;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+button{
+    font-size: 1.2em;
+    padding: .5em;
+    margin: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 22, 22);
+    color: white;
+    cursor: pointer;
+}
+
+#showhere{
+    text-align: center;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
